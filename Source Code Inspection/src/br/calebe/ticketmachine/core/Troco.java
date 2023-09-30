@@ -66,7 +66,7 @@ class Troco {
         public boolean hasNext() {
             for (int i = 5; i >= 0; i--) {
                 if (troco.papeisMoeda[i] != null) {
-                    return true;
+                return true;
                 }
             }
             return false;
